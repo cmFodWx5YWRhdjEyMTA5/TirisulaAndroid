@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Tirisula Yoga</string>
+    <string name="host_internet">No Internet Connection</string>
+    <string name="go_to_settings">Go To Settings</string>
+    <string name="retry">Please Retry</string>
+    <string name="title_activity_dashboard">DashboardActivity</string>
+</resources>

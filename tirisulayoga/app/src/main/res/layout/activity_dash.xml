@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/tiri_bg"
+    tools:context=".DashActivity">
+
+
+    <ScrollView
+        android:fillViewport="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:padding="15dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:weightSum="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/ll_yoga"
+            android:layout_margin="5dp"
+            android:orientation="vertical"
+            android:padding="7dp"
+            android:background="@drawable/white_bg"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+
+                <ImageView
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/v2hd"
+                    android:layout_width="50dp"
+                    android:layout_height="60dp" />
+
+            <TextView
+                android:gravity="right"
+                android:textSize="15sp"
+                android:textColor="@color/colorBlack"
+                android:text="Yoga Classes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+
+        </LinearLayout>
+            <LinearLayout
+                android:id="@+id/ll_courses"
+                android:layout_margin="5dp"
+                android:orientation="vertical"
+                android:padding="7dp"
+                android:background="@drawable/white_bg"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+
+
+                <ImageView
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/v1hd"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp" />
+
+                <TextView
+                    android:gravity="right"
+                    android:textSize="15sp"
+                    android:textColor="@color/colorBlack"
+                    android:text="Courses"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+
+
+            </LinearLayout>
+    </LinearLayout>
+        <LinearLayout
+            android:weightSum="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/ll_location"
+                android:layout_margin="5dp"
+                android:orientation="vertical"
+                android:padding="7dp"
+                android:background="@drawable/white_bg"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+
+
+                    <ImageView
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/v3hd"
+                        android:layout_width="65dp"
+                        android:layout_height="60dp" />
+
+                <TextView
+                    android:gravity="right"
+                    android:textSize="15sp"
+                    android:textColor="@color/colorBlack"
+                    android:text="Locations"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/ll_franchise"
+                android:layout_margin="5dp"
+                android:orientation="vertical"
+                android:padding="7dp"
+                android:background="@drawable/white_bg"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+
+
+                    <ImageView
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/v4hd"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp" />
+
+                <TextView
+                    android:gravity="right"
+                    android:textSize="15sp"
+                    android:textColor="@color/colorBlack"
+                    android:text="Franchise Now"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:weightSum="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/ll_booking"
+                android:layout_margin="5dp"
+                android:orientation="vertical"
+                android:padding="7dp"
+                android:background="@drawable/white_bg"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+
+
+
+                    <ImageView
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/v6hd"
+                        android:layout_width="50dp"
+                        android:layout_height="60dp" />
+
+
+                <TextView
+                    android:textSize="15sp"
+                    android:gravity="right"
+                    android:textColor="@color/colorBlack"
+                    android:text="Booking"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/ll_price"
+                android:layout_margin="5dp"
+                android:orientation="vertical"
+                android:padding="7dp"
+                android:background="@drawable/white_bg"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+
+
+                    <ImageView
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/v5hd"
+                        android:layout_width="65dp"
+                        android:layout_height="60dp" />
+
+                <TextView
+                    android:gravity="right"
+                    android:textSize="15sp"
+                    android:textColor="@color/colorBlack"
+                    android:text="Pricing"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="www.tirisulayoga.com"
+            android:textColor="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+    </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
